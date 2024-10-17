@@ -5,24 +5,6 @@
 
 A simple chatbot application using FastAPI for the backend and React for the frontend, integrated with the Ollama model for conversational AI.
 
-## Project Structure
-
-```
-/chatbot-app
-├── /backend
-│   ├── Dockerfile           # Dockerfile for the FastAPI backend
-│   ├── main.py              # Main application file for the FastAPI server
-│   ├── requirements.txt      # Python dependencies for the backend
-│   └── ...                  # Other backend-related files (e.g., models, configurations)
-└── /frontend
-    ├── Dockerfile           # Dockerfile for the React frontend
-    ├── package.json         # Package configuration for React
-    ├── package-lock.json    # Lock file for React dependencies
-    ├── src                  # Source code for React application
-    │   ├── App.js           # Main component for the React application
-    │   └── ...              # Other React components and files
-    └── public               # Public assets for the React application
-```
 
 ## Getting Started
 

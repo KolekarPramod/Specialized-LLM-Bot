@@ -1,77 +1,11 @@
 
-
-```markdown
-# Chatbot Application
-
-A simple chatbot application using FastAPI for the backend and React for the frontend, integrated with the Ollama model for conversational AI.
-
-
-## Getting Started
-
-### Prerequisites
-
-Make sure you have the following installed on your machine:
-
-- Docker
-- Docker Compose
-
-### Installation
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone <repository-url>
-   cd chatbot-app
-   ```
-
-2. **Build and run the Docker containers:**
-
-   ```bash
-   docker-compose up --build
-   ```
-
-   This command will build the Docker images for both the backend and frontend and start the services.
-
-### Accessing the Application
-
-- The **FastAPI backend** can be accessed at `http://localhost:8000`.
-- The **React frontend** can be accessed at `http://localhost:3000`.
-
-### API Endpoints
-
-- **POST /chat/**: Send a message to the chatbot and receive a response.
-  - **Request Body**:
-    ```json
-    {
-      "text": "Your message here"
-    }
-    ```
-  - **Response**:
-    ```json
-    {
-      "response": "Chatbot's response here"
-    }
-    ```
-
-## Development
-
-### Running the Backend Locally
-
-If you want to run the backend locally without Docker, follow these steps:
-
-1. **Navigate to the backend directory:**
-
-   ```bash
-   cd backend
-   ```
-
-2. **Install the required Python packages:**
+1. **Install the required Python packages:**
 
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Run the FastAPI application:**
+2. **Run the FastAPI application:**
 
    ```bash
    uvicorn main:app --host 0.0.0.0 --port 8000 --reload

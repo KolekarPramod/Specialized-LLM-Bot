@@ -33,4 +33,4 @@ async def chat(message: Message):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-# Run the app with: uvicorn main:app --reload
+

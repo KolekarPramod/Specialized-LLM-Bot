@@ -1,10 +1,14 @@
 body {
   background-color: #f4f4f9;
   font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .App {
-  text-align: center;
+  /* text-align: center; */
   max-width: 600px;
   margin: auto;
   padding: 20px;
@@ -20,10 +24,11 @@ h1 {
 
 .chat-window {
   border: 1px solid #ccc;
-  height: 400px;
+  height: 600px;
   overflow-y: auto;
   padding: 10px;
   margin-bottom: 10px;
+  width: 600px;
   display: flex;
   flex-direction: column;
   border-radius: 8px;
@@ -39,14 +44,14 @@ h1 {
 
 .user {
   align-self: flex-end;
-  background-color: #d1e7dd;
-  color: #0f5132;
+  background-color: #0f5132;
+  color: #d1e7dd;
 }
 
 .bot {
   align-self: flex-start;
-  background-color: #f8d7da;
-  color: #721c24;
+  background-color: #473F41;
+  color: #d1e7dd;
 }
 
 .input-area {
@@ -77,3 +82,5 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
+h1{text-align: center;}

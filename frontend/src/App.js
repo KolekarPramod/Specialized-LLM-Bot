@@ -2,6 +2,14 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./App.css";
 
+
+// const apiUrl = process.env.REACT_APP_API_URL;
+
+// if(apiUrl){
+//     console.log(REACT_APP_API_URL)
+// }
+
+
 function App() {
     const [userInput, setUserInput] = useState("");
     const [messages, setMessages] = useState([]);
@@ -13,7 +21,7 @@ function App() {
             setUserInput("");
 
             try {
-                const response = await axios.post("http://localhost:8000/chat/", {
+                const response = await axios.post(`${process.env.REACT_APP_API_URL}/chat/`, {
                     text: userInput,
                 });
                 setMessages([...newMessages, { sender: "bot", text: response.data.response }]);
@@ -29,7 +37,7 @@ function App() {
             <div className="chat-window">
                 {messages.map((msg, index) => (
                     <div key={index} className={`message ${msg.sender}`}>
-                        <strong>{msg.sender === "user" ? "You" : "Bot"}:</strong>
+                        <strong>{msg.sender === "user" ? "You" : "HR_Bot "}:{" "}</strong>
                         <span>{msg.text}</span>
                     </div>
                 ))}

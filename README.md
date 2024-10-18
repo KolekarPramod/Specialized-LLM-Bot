@@ -3,7 +3,7 @@
 
    ```bash
    git clone git@github.com:KolekarPramod/hrChatBot.git
-   
+   cd hrChatBot
    pip install -r requirements.txt
    ```
 

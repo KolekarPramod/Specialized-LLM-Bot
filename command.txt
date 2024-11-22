@@ -1,0 +1,10 @@
+llama-cpp
+
+python3 convert_hf_to_gguf.py /mnt/c/work/LLaMA-Factory/Llama8bFreezeEmail/ --outtype q8_0 --outfile ./quantized_model/pg10.gguf 
+
+
+ollama to create model 
+
+ollama show rejolut/pg4 --modelfile
+
+ollama create rejolut/pg10 -f /mnt/c/work/ollama/Modelfile

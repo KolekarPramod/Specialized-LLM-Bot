@@ -58,7 +58,7 @@ This project not only sharpens technical proficiency in NLP, LLMs, and model dep
 ### ✅ Prerequisites
 Ensure you have the following installed:
 - Python 3.10+
-- Ollama
+- Ollama ( ollama run KolekarPramod/hr_bot_v3 )
 - Git
 - CUDA (for GPU-based inference, optional)
 

@@ -3,6 +3,10 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
+![hr_bot_presentation](https://github.com/user-attachments/assets/b8e8cb2f-5f5f-472b-bc51-3f48a5912b0f)
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ## 📖 Introduction:
 The **HRBot** project is designed to revolutionize Human Resource automation using a conversational AI fine-tuned specifically for HR-related queries. Built on top of the **LLaMA 3.2B Instruct** model, this project encapsulates model fine-tuning, conversion to **GGUF format**, and deployment via **Ollama** for a seamless local experience.
 

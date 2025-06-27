@@ -3,7 +3,8 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-![hr_bot_presentation](https://github.com/user-attachments/assets/b8e8cb2f-5f5f-472b-bc51-3f48a5912b0f)
+![image](https://github.com/user-attachments/assets/db46639a-4873-4efa-afd9-4aa85c5e2eb1)
+
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 

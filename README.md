@@ -3,7 +3,10 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-![image](https://github.com/user-attachments/assets/db46639a-4873-4efa-afd9-4aa85c5e2eb1)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/db46639a-4873-4efa-afd9-4aa85c5e2eb1" alt="Logo" width="400"/>
+</p>
+
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -59,7 +62,7 @@ This project not only sharpens technical proficiency in NLP, LLMs, and model dep
 ### ✅ Prerequisites
 Ensure you have the following installed:
 - Python 3.10+
-- Ollama ( ollama run KolekarPramod/hr_bot_v3 )
+- Ollama ( ollama run KolekarPramod/medical_bot_llama1b )
 - Git
 - CUDA (for GPU-based inference, optional)
 

@@ -6,3 +6,4 @@ pandas
 pypdf
 langchain
 langchain-community
+langchain-ollama
